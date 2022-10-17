@@ -1,6 +1,5 @@
 ## get combined estimator by influence function
 rm(list=ls())
-setwd("/Users/chuanhong/Dropbox/00_Harvard/SurvCurvCalib/from_Chuan/code/to_share/")
 library(locfit)
 library(survival)
 library(parallel)

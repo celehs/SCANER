@@ -6,12 +6,12 @@
 
 - Synthetic data generation for survival analysis
 - Implements various survival models, including:
-- Proposed semi-supervised estimator
-- Kaplan-Meier
-- Proposed SCANER estimator which ensembles the semi-supervised estimator and Kaplan-Meier
-- Deep Learning-based models (using the `deepsurv` package)
-- Non-parametric estimator
-- Density ratio estimator
+  - Proposed semi-supervised estimator
+  - Kaplan-Meier
+  - Proposed SCANER estimator which ensembles the semi-supervised estimator and Kaplan-Meier
+  - Deep Learning-based models (using the `deepsurv` package)
+  - Non-parametric estimator
+  - Density ratio estimator
 - Functions for estimating survival curves
 - Performance evaluation metrics
 - Extensive documentation and examples

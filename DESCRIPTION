@@ -1,0 +1,21 @@
+Package: SCANER
+Type: Package
+Title: Semi-Supervised Calibration of Noisy Event Risk (SCANER) with Electronic Health Records
+Version: 0.1.0
+Date: 2023-05-01
+Authors@R: c(
+    person("Chuan", "Hong", email = "chuan.hong@duke.edu", role = c("aut", "cre"))
+Description: The SCANER package provides a collection of functions for
+    analyzing survival data with competing risks using semi-supervised learning.
+    It implements methods to estimate cumulative incidence functions and to compute
+    several estimators, including deep learning-based estimators, semiparametric
+    transformation models, and Kaplan-Meier estimators.
+License: GPL-3
+Depends: R (>= 3.5.0)
+Imports:
+    survival,
+    survivalmodels,
+    stats
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3

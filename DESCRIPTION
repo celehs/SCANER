@@ -5,6 +5,7 @@ Version: 0.1.0
 Date: 2023-05-01
 Authors@R: c(
     person("Chuan", "Hong", email = "chuan.hong@duke.edu", role = c("aut", "cre"))
+  )
 Description: The SCANER package provides a collection of functions for
     analyzing survival data with competing risks using semi-supervised learning.
     It implements methods to estimate cumulative incidence functions and to compute

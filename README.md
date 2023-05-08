@@ -1,4 +1,4 @@
-# SCANER: Survival Curve Estimation with Semi-Supervised Learning
+# SCANER: Semi-Supervised Calibration of Noisy Event Risk with Electronic Health Records
 
 `SCANER` is an R package for estimating survival curves using both labeled and unlabeled data in a semi-supervised learning framework. It provides a comprehensive of functions for generating synthetic data, fitting survival models, and evaluating their performance. The package aims to help researchers and practitioners in the field of survival analysis to leverage the power of semi-supervised learning to improve the accuracy of their models, especially when working with limited labeled data.
 
@@ -6,12 +6,14 @@
 
 - Synthetic data generation for survival analysis
 - Implements various survival models, including:
-  - Deep Learning-based models (using the `deepsurv` package)
-  - Kaplan-Meier
-  - Newton-Raphson
+- Proposed semi-supervised estimator
+- Kaplan-Meier
+- Proposed SCANER estimator which ensembles the semi-supervised estimator and Kaplan-Meier
+- Deep Learning-based models (using the `deepsurv` package)
+- Non-parametric estimator
+- Density ratio estimator
 - Functions for estimating survival curves
 - Performance evaluation metrics
-- Functions for combining different estimators
 - Extensive documentation and examples
 
 ## Installation
@@ -22,10 +24,8 @@ To install the latest version of `SCANER` from GitHub, run the following command
 if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
 }
-devtools::install_github("your_username/SCANER")
+devtools::install_github("ChuanHong/SCANER")
 ```
-
-Replace `your_username` with your actual GitHub username, assuming you have already pushed the package to a GitHub repository.
 
 ## Usage
 

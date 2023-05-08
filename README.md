@@ -59,6 +59,9 @@ Semi = get.semi(Xi, Ci, Di, Zi, Ci.UL, Zi.UL, t0.all)
 SCANER = get.SCANER(n.t0, n, Semi, KM)
 DR = get.DR(Zi, Zi.UL, Xi, Ci, Di, t0.all)
 DL = get.DL(Zi, Zi.UL, Xi, Ci, Di, t0.all)
+
+### Calculate AUC of the proposed semi-supervised model
+myAUC = get.semi.auc(Xi,Ci,Di,Zi,Ci.UL,Zi.UL, t0.all)
 ```
 
 This example demonstrates how to generate synthetic data, fit different survival models, and obtain survival curve estimates using the `SCANER` package.

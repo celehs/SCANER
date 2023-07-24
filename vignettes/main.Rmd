@@ -1,0 +1,11 @@
+---
+title: "Main Steps"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Main Steps}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+### To be added
+

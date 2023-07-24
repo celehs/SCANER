@@ -1,0 +1,23 @@
+---
+title: "Example 1: Simulated Data"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Example 1: Simulated Data}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r}
+library(SCANER)
+```
+
+```{r}
+set.seed(123)
+```
+
+Generate simulated data.
+
+```{r}
+
+```
+

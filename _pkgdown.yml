@@ -1,0 +1,21 @@
+template:
+  params:
+    bootswatch: cosmo
+
+navbar:
+  title: "SCANER"
+  type: inverse
+  left:
+    - icon: "fa-home"
+      href: index.html
+    - text: "Main Steps"
+      href: articles/main.html
+    - text: "Examples"
+      menu:
+      - text: "Simulated Data"
+        href: articles/example1.html
+    - text: "Reference"
+      href: reference/index.html
+  right:
+    - text: "CELEHS Software"
+      href: https://celehs.github.io
